@@ -7,16 +7,16 @@ const models = {
     stopToken: "###",
     extraStopSequences: ["</s>"],
   },
-  "stabilityai/StableBeluga2": {
-    modelCard: "https://huggingface.co/stabilityai/StableBeluga2",
-    license: "https://huggingface.co/stabilityai/StableBeluga2/blob/main/LICENSE.txt",
+  "petals-team/StableBeluga2": {
+    modelCard: "https://huggingface.co/petals-team/StableBeluga2",
+    license: "https://huggingface.co/petals-team/StableBeluga2/blob/main/LICENSE.txt",
     maxSessionLength: 8192,
     sepToken: "###",
     stopToken: "###",
     extraStopSequences: ["</s>"],
   },
 };
-var curModel = "stabilityai/StableBeluga2";
+var curModel = "petals-team/StableBeluga2";
 
 const generationParams = {
   do_sample: 1,
