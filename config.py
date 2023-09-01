@@ -19,7 +19,7 @@ MODELS = [
 DEFAULT_MODEL_NAME = "codellama/CodeLlama-34b-Instruct-hf"
 
 # Set this to a list of multiaddrs to connect to a private swarm instead of the public one, for example:
-INITIAL_PEERS = ["/ip4/142.58.37.127/tcp/31337/p2p/QmdZMPJZWtJUWmZgJv2YinnBQ1J6k7Xo9yT5RDveR6r15d"]
+INITIAL_PEERS = ["/ip4/142.58.37.127/tcp/31337/p2p/QmZEnvoZTb3r6Um4JygYCAckvYRsUdzLayLE3XbtcCUcgd"]
 
 DEVICE = "cuda"
 
