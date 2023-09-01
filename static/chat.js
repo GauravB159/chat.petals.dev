@@ -6,9 +6,17 @@ const models = {
     sepToken: "###",
     stopToken: "###",
     extraStopSequences: ["</s>"],
-  }
+  },
+  "stabilityai/StableBeluga2": {
+    modelCard: "https://huggingface.co/stabilityai/StableBeluga2",
+    license: "https://huggingface.co/stabilityai/StableBeluga2/blob/main/LICENSE.txt",
+    maxSessionLength: 8192,
+    sepToken: "###",
+    stopToken: "###",
+    extraStopSequences: ["</s>"],
+  },
 };
-var curModel = "codellama/CodeLlama-34b-Instruct-hf";
+var curModel = "stabilityai/StableBeluga2";
 
 const generationParams = {
   do_sample: 1,
