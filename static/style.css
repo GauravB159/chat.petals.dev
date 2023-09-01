@@ -255,3 +255,8 @@ main p {
 .reset-btn {
   font-size: 9pt;
 }
+
+.dialogue{
+  max-height: 50vh;
+  overflow-y: auto;
+}
