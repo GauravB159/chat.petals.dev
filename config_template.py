@@ -21,7 +21,7 @@ DEFAULT_MODEL_NAME = ~MODEL~
 # Set this to a list of multiaddrs to connect to a private swarm instead of the public one, for example:
 INITIAL_PEERS = [~INITIAL_PEERS~]
 
-DEVICE = "cuda"
+DEVICE = "cpu"
 
 if DEVICE == "cuda":
     TORCH_DTYPE = "auto"
